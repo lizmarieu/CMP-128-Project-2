@@ -1,0 +1,79 @@
+#calcDisplay {
+    border: .5px solid black;
+    padding: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#operationButton {
+            padding: 10px 40px;
+            font-weight: light;
+            color: black;
+            background-color: rgb(179, 176, 176);
+            cursor: pointer;
+            margin-bottom: 0px;
+            border: 0px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+}
+
+#calcButton {
+            margin: 2px;
+            padding: 10px 40px;
+            font-weight: light;
+            color: black;
+            background-color: rgb(240, 236, 236);
+            cursor: pointer;
+            border: 0px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+
+}
+
+#calcButton1 {
+            margin: 2px;
+            padding: 10px 40px;
+            padding-left: 40px;
+            font-weight: light;
+            color: black;
+            background-color: rgb(240, 236, 236);
+            cursor: pointer;
+            border: 0px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+
+}
+
+#calcButtonDecimal {
+            margin: 2px;
+            padding: 10px 40px;
+            padding-left: 40px;
+            font-weight: light;
+            color: black;
+            background-color: rgb(240, 236, 236);
+            cursor: pointer;
+            border: 0px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+
+}
+
+#equalButton {
+            margin: 2px;
+            padding: 30px;
+            font-weight: light;
+            background-color: rgb(56, 110, 227);
+            cursor: pointer;
+            border: solid rgb(56, 110, 227);
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+            color: white;
+            text-align: center;
+}
+
+table {
+    margin-right: auto;
+    margin-left: auto;
+}

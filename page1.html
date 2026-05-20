@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<!-- stating that our html document is in english -->
+
+<head> <!-- head is not visible to the user and contains all the meta data -->
+
+    <title>calculator</title> <!-- title sets the title of the webpage -->
+
+    <meta charset="UTF-8"> <!-- meta for charset it is just the character set used for english lettering  -->
+
+    <meta name="Liz" content="trying to make a calculator!"> <!-- tagging the website from the creator -->
+
+    <link rel="stylesheet" href="./styles.css"> <!-- external css call -->
+
+<!-- <script> allows us to write JavaScript-->
+    <script src="./script.js"></script>
+
+</head>
+
+<body>
+ <section class="calculatorBox">
+
+        <table> <!--used a table to organize buttons-->
+            <tbody>
+        <!-- make sure to utilize the id to style the buttons-->
+        <tr>
+            <td colspan="4"><p id="calcDisplay">0</p></td>
+        </tr> 
+
+        <tr>
+            <td><button id="operationButton" onclick="setOperation('+')">+</button></td>
+            <td><button id="operationButton" onclick="setOperation('-')">-</button></td>
+            <td><button id="operationButton" onclick="setOperation('*')">x</button></td>
+            <td><button id="operationButton" onclick="setOperation('/')">/</button></td>
+        </tr>
+
+            <tr>
+                <td><button id="calcButton" onclick="pressNumber(7)">7</button></td>
+                <td><button id="calcButton" onclick="pressNumber(8)">8</button></td>
+                <td><button id="calcButton" onclick="pressNumber(9)">9</button></td>
+                <td id="equalButton" rowspan="4" onclick="calculateResult()">=</td> <!-- this isnt a button but is clickable-->
+
+            </tr>
+
+           <tr>
+                <td><button id="calcButton" onclick="pressNumber(4)">4</button></td>
+                <td><button id="calcButton" onclick="pressNumber(5)">5</button></td>
+                <td><button id="calcButton" onclick="pressNumber(6)">6</button></td>
+            </tr>
+
+           <tr>
+                <td><button id="calcButton1" onclick="pressNumber(1)">1</button></td>
+                <td><button id="calcButton" onclick="pressNumber(2)">2</button></td>
+                <td><button id="calcButton" onclick="pressNumber(3)">3</button></td>
+            </tr>
+
+            <tr>
+                <td><button id="calcButton" onclick="pressNumber(0)">0</button></td>
+                <td><button id="calcButtonDecimal" onclick="pressNumber('.')">.</button></td>
+                <td><button id="calcButton" onclick="clearCalculator()">C</button></td>
+            </tr>
+  </section>
+
+            </tbody>
+        </table>
+</body>
+
+</html>
